@@ -1,0 +1,86 @@
+Assignment - 2:
+1.Name: xyz, Roll number: xyz, Field of interest: xyz:
+package javaproblems;
+import java.util.*;
+
+public class input {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        String Name = sc.nextLine();
+        int RollNo = sc.nextInt();
+        String sub = sc.next();
+
+        System.out.println("Name:" + Name);
+        System.out.println("Roll No:" + RollNo);
+        System.out.println("Field of interest:" + sub);
+
+    }
+}
+
+
+2.Input two different string and print them in same line:
+package javaproblems;
+import java.util.*;
+
+public class input {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        String first = sc.nextLine();
+
+        String last = sc.next();
+
+        System.out.println(first + last);
+
+    }
+}
+
+3.calculate his total marks and percentage marks:
+package javaproblems;
+import java.util.*;
+
+public class input {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int m1 = sc.nextInt();
+        int m2 = sc.nextInt();
+        int m3 = sc.nextInt();
+        int totalmarks = m1 + m2 + m3;
+        int percentage = (totalmarks / 3);
+        System.out.println(totalmarks);
+        System.out.println(percentage + "%");
+    }
+}
+4.T lines of Two integers representing the numbers to be added:
+package javaproblems;
+import java.util.*;
+
+public class input {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int t = sc.nextInt();
+        for (int i = 1;i<=t;i++){
+            int x = sc.nextInt();
+            int y = sc.nextInt();
+            System.out.println(x+y);
+
+        }
+
+    }
+}
+5.Two strings, concatenate the strings:
+package javaproblems;
+import java.util.*;
+
+public class input {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        while(sc.hasNextLine()){
+            String x = sc.next();
+            String y = sc.next();
+            System.out.println(x+y);
+
+        }
+
+    }
+}
+
